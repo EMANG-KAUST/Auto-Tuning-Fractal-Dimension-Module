@@ -1,0 +1,2 @@
+clear all
+load('EPI006_EPI006_28OCT2020_EPILEPSY2_tsss_mc_anon_(3)_band_resample_notch_kt.mat')
