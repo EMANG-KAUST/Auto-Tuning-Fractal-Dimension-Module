@@ -58,7 +58,7 @@ This application can be downloaded by built-in [git](https://www.mathworks.com/h
 
 ## How to Run
 
-The repo provides a wide variety of methods and utilities which can help researchers to study epilepsy spike detection methods. Both detection methods and feature extraction methods in existing literature publications are provided.
+This repo provides code implementations of our recently submitted SAM-ED paper. It includes a wide variety of methods and utilities which can help researchers to study epilepsy spike detection methods. Both detection methods and feature extraction methods in existing literature publications are provided.
 
 ### Our method 
 Both pre-defined system parameters and automatic detection function and utilities are described. The first subsection is listed for research purposes with some system parameters shown in variable location and variable name allowing easier tunning process. Then usages of automatic detection function and utilities are covered for implementations.
@@ -71,8 +71,6 @@ Initial *u* value before search  | /functions/main/threshold2.m | c
 non spike ratio *R* thresholds | /functions/main/ratiojudge.m| -
 exponential search base number   | /functions/main/StateTrans.m| searchD
 number of linear scanning intervals  | /functions/main/StateTrans.m | IndMax
-ratio value for judging *C_1, C_2* conditions | /functions/main/SCSASpikeDetect.m| ThK, ThN
-SCSA *C_1 , C_2* conditions thesholds  | /functions/main/SCSASpikeDetect.m | Ts1, Ts2
 maximum sample length in a region |esRegionsExtract.m | NL
 number of channels in data |esRegionsExtract.m| chan_index
 window sample size |esRegionsExtract.m| frame_size
