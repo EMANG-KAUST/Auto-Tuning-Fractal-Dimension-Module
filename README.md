@@ -77,7 +77,7 @@ window sample size |esRegionsExtract.m| frame_size
 moving window step size |esRegionsExtract.m| step
 
 #### Automatic detection function
-This section provides implementation of **algorithm 3** in our paper. You can get extracted regions *R_F* from an input MEG/EEG patient data D (D is matrix with each row containing channel waveforms) simply by running the following command.
+This section provides implementation of **algorithm 2** in our paper. You can get extracted regions *R_F* from an input MEG/EEG patient data D (D is matrix with each row containing channel waveforms) simply by running the following command.
 ```matlab
 [R_F] = esRegionsExtract(D)
 ```
