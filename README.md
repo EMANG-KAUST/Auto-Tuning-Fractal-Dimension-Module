@@ -2,8 +2,8 @@
 <h1 align="center">Self-Adaptive Epilepsy Spike Detection (SAM-ED)</h1>
 
 <p align="center">
-  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html](https://github.com/EMANG-KAUST/C-SCSA/blob/main/README.md">
-<img src="https://img.shields.io/badge/license-GPL--3.0--or--later-blue](https://img.shields.io/badge/Code%20Coverage-70%25-yellowgreen">
+  <a href="https://github.com/EMANG-KAUST/C-SCSA/blob/main/README.md">
+<img src="https://img.shields.io/badge/Code%20Coverage-70%25-yellowgreen">
   </a> 
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
 <img src="https://img.shields.io/badge/license-GPL--3.0--or--later-blue">
