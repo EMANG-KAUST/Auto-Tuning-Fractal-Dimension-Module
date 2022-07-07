@@ -60,7 +60,7 @@ This application can be downloaded by built-in [git](https://www.mathworks.com/h
 
 This repo provides code implementations of our recently submitted SAM-ED paper. It includes a wide variety of methods and utilities which can help researchers to study epilepsy spike detection methods. Both detection methods and feature extraction methods in existing literature publications are provided.
 
-### Our method 
+### Our method (SAM-ED)
 Both pre-defined system parameters and automatic detection function and utilities are described. The first subsection is listed for research purposes with some system parameters shown in variable location and variable name allowing easier tunning process. Then usages of automatic detection function and utilities are covered for implementations.
 #### Pre-defined system parameters
 Parameter Description | Variable Location    | Variable Name
@@ -101,9 +101,8 @@ To perform performance comparisons or to implement seperate modules for debuggin
 |  `FD`   | The fractal dimension of signals be estimated with [Katz’s](https://www.sciencedirect.com/science/article/pii/0010482588900418)  algorithm. Kat'z Fractal Dimention (FD) calculation of a window can be implemented by `F_D = FD(y)`. Note: scaling of *y* can affect F_D value given FD definitions. |
 |   `FDM`   | Implementation of FD module only.  Input is the data matrix with rows containing all the channels. Parameters can be adjusted in the constant definitions section. This module can be implemented by `[R] = FDM(D,framesize,step,chan_index)`, where *D* is the input data matrix and *R* is extracted regions |
 |   `FD_Analysis`    | FD analysis in a single iteration. This involves more detailed implementation such as state definitions and transitions. It can also adjust system parameters such as number of elements in *TestBuffer*. This function can be run by `[regions] = FD_Analysis(frame_size,step,chan_index,data,coefficient)`.|
-|  `SCSAM`   | Implementation of SCSA detection module only. Input is the regions with each row containing boundaries. Ouput is the filtered regions with each row containing boundaries.  This function can be run by `[R_F] = SCSAM(D, regions, frame_size,step,chan_index)`.                                                                                                                                                                                                                                                   |
-|   `SCSA`    | SCSA reconstruction. Users can decompose the signal with a positive `h` value, by `[yscsa,Nh,EigV,EigF] = scsa_build(h,y)`. **function Input**: `h` is a positive value, also known as the [SCSA](https://link.springer.com/content/pdf/10.1007/s00498-012-0091-1.pdf) semi-classical constant. It can be selected by [Quantum-based interval selection](https://ieeexplore.ieee.org/abstract/document/9287878). `y` is the input signal to be decomposed.  **function Output**: `yscsa` is the decomposed signal, `Nh` is the number of eigenfunctions. `EigV` is a matrix with eigenvalues on its diagonal (you can export the eigenvalues by `diag(EigV)`. `EigF` is the matrix of eigenfunctions. [UI interface](https://github.com/EMANG-KAUST/SCSA-reconstruction) of this tool is also available. |
 
+### Other methods
 
 
 ### License
