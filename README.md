@@ -102,9 +102,6 @@ To perform performance comparisons or to implement seperate modules for debuggin
 |   `FDM`   | Implementation of FD module only.  Input is the data matrix with rows containing all the channels. Parameters can be adjusted in the constant definitions section. This module can be implemented by `[R] = FDM(D,framesize,step,chan_index)`, where *D* is the input data matrix and *R* is extracted regions |
 |   `FD_Analysis`    | FD analysis in a single iteration. This involves more detailed implementation such as state definitions and transitions. It can also adjust system parameters such as number of elements in *TestBuffer*. This function can be run by `[regions] = FD_Analysis(frame_size,step,chan_index,data,coefficient)`.|
 
-### Other methods
-
-
 ### License
 
 The application library (i.e. all code inside of the `functions` directory) is licensed under the
