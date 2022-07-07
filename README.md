@@ -1,12 +1,9 @@
 
-<h1 align="center">Automatic Epilepsy Spike Detection</h1>
+<h1 align="center">Self-Adaptive Epilepsy Spike Detection (SAM-ED)</h1>
 
 <p align="center">
-  <a href="https://ieeexplore.ieee.org/document/9374974">
-    <img src="https://img.shields.io/badge/paper-IEEE%20Access-brightgreen">
-  </a>  <a href="https://ieeexplore.ieee.org/abstract/document/9631028">
-    <img src="https://img.shields.io/badge/paper-EMBC2021-orange">
-</a>   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+  [![Discord](https://img.shields.io/badge/Code%20Coverage-70%25-yellowgreen)](https://github.com/EMANG-KAUST/C-SCSA/blob/main/README.md)
+  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
 <img src="https://img.shields.io/badge/license-GPL--3.0--or--later-blue">
   </a>  
 </p>
