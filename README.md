@@ -53,7 +53,7 @@ Our application is developed in Matlab 2020a. An equaling or higher version is r
 - [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/deep-learning.html)
 ## Download
 
-This application can be downloaded by built-in [git](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) tool in Matlab.
+This application can be downloaded by built-in [git](https://www.mathworks.com/help/matlab/matlab_prog/set-up-git-source-control.html) tool in Matlab, with an example provided below.
 ![screenshot](https://github.com/EMANG-KAUST/CentralPressure_PPG/blob/main/img/2.gif)
 
 ## How to Run
